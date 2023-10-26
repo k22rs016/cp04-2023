@@ -38,6 +38,14 @@
         $('#btnC').click(function(e) {
             btnCClick(e);
         });
+
+        $('#btnD').click(function(e) {
+            btnDClick(e);
+        });
+
+        $('#btnE').click(function(e) {
+            btnEClick(e);
+        });
         init();
     });
     
@@ -205,6 +213,22 @@
         $("#remain").html("残り時間： " + period);
 
         
+    }
+
+    function btnDClick(e){
+        alarm();
+        active = false;
+        period = 180;
+        $("#time").html("経過時間：0");
+        $("#remain").html("残り時間： " + period);
+    }
+
+    function btnEClick(e){
+        alarm();
+        active = false;
+        period = 300;
+        $("#time").html("経過時間：0");
+        $("#remain").html("残り時間： " + period);
     }
 
     
