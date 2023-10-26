@@ -76,10 +76,12 @@
     }
 
      #btnD {
+         background-color: lemonchiffon;
         font-size: 30px;
         position:absolute; top:380px; left:77%; width:10%; height:60px; 
     }
     #btnE {
+        background-color: peru;
         font-size: 30px;
         position:absolute; top:380px; left:87%; width:10%; height:60px; 
     }
